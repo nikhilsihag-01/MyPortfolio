@@ -1,0 +1,195 @@
+
+
+@media (max-width:479px)  {
+    .icon{
+        font-size: 1.2rem;
+        
+    }
+    nav{
+        justify-content: center;
+    }
+    
+    .nav-list{
+        display: none;
+    }
+    /* banner--------------------------- */
+    .banner{
+        height: auto;
+        flex-direction: column;
+    }
+    .banner-text span{
+        font-size: 1rem;
+    }
+    .banner-text h1{
+        font-size: 1.5rem;
+    
+    }
+    .banner-text h2{
+        font-size: 1.2rem;
+    }
+    
+    .banner-img {
+        position: relative;
+        width: 100%;
+    }
+
+    .banner-img img{
+    height: 300px;
+    }
+
+    /* skills------------------------------ */
+
+    .skills{
+        border-bottom: 2px solid black;
+        font-size: 15px;
+    }
+    
+    .skill-container{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .skill{
+        width: 250px;
+    }
+    
+    .skill i{
+        font-size: 3rem;
+    }
+    .skill h1{
+        font-size: 1.4rem;
+    }
+    .skill p{
+        font-size: 15px;
+    }
+    .more-skill{
+        font-size: 1rem;
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+
+    /* projects------------------------- */
+    .projects{
+        text-align: center;
+    }
+    
+    .project-container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    
+    }
+    
+    .project1{
+        font-size: 16px;
+        width: 200px;
+        box-shadow: 2px 5px 10px black;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+
+    /* contact------------------ */
+    
+    .mycontact{
+        padding: 20px;
+    }
+    
+    
+    .mycontact section{
+        margin-bottom: 10px;
+        display: flex;
+        gap: 10px;
+    }
+    
+    
+}
+
+
+@media (min-width:479px) and (max-width:800px) {
+
+    i{
+        font-size: 2rem;
+    }
+    .banner .banner-text{
+        /* padding: 10px; */
+        margin-left: 50px;
+    }
+    
+    .banner-text span{
+        font-size: 2rem;
+    }
+    .banner-text h1{
+        font-size: 2.5rem;
+    
+    }
+    .banner-text h2{
+        font-size: 2rem;
+    }
+    
+    .banner-img {
+        position:absolute;
+        bottom: 0;
+        right: 10px;
+    }
+
+    .banner-img img{
+    height: 250px;
+    }
+
+
+
+
+    /* skill--------------- */
+    .skills{
+        font-size: 15px;
+    }
+    
+    #skillh1{
+        text-align: center;
+        font-size: 2rem;
+        padding: 10px;
+    }
+    
+    .skill-container{
+        row-gap: 2rem;
+        column-gap: 3rem;
+        place-items: center;
+        margin: 0 50px;
+    }
+    
+    .skill{
+        width: 300px;
+        gap: 10px;
+    }
+    
+    .skill i{
+        transition: 0.5s;
+        font-size: 3rem;
+    }
+    
+    .more-skill{
+        font-size: 1rem;
+        width: 80%;
+        margin: 50px auto;
+    }
+    
+
+    .contact{
+        padding: 50px;
+    }
+}
+
+@media (min-width:1024px) {
+    .skill-container{
+        margin: 50px;
+    }
+    
+    .skill{
+        width: 400px;
+        gap: 10px;
+    }  
+}
